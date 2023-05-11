@@ -1,0 +1,16 @@
+.featured-container {
+    // height: 200px;
+    margin: 25px;
+    .sub-featured {
+        height: 100%;
+        display: flex;
+
+        &-image {
+            width: 50%;
+        }
+
+        &-content {
+            width: 50%;
+        }
+    }
+}
