@@ -10,7 +10,7 @@ const nextConfig = {
     }
 
     config.module.rules.push({
-      test: /\.scss$/,
+      test: [/\.scss$/, /\.css$/],
       use: [
         'style-loader',
         'css-loader',

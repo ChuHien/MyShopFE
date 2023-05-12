@@ -1,0 +1,13 @@
+.favorite-container {
+    margin: 25px;
+    .title {
+        
+    }
+
+    .list-product {
+        .favorite-product {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.newin-container {
+  margin: 25px;
+  .title {
+  }
+
+  .list-product {
+    .newin-product {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
